@@ -1,1 +1,8 @@
-
+img {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  margin-top: 65px;
+  max-width: 720px;
+  /*max-height: 720*/
+  width: 80%;
