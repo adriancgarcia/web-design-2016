@@ -1,9 +1,79 @@
-img {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #000;
-  margin-top: 65px;
-  max-width: 720px;
-  /*max-height: 720*/
-  width: 80%;
+body {
+  background-image:url("Images/The_Rookery.jpg") no-repeat;
+  background: #2be9d8;
+}
+
+/*h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  margin: 0px;
+}*/
+
+.primary {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  color:#f3982e;
+  margin: 0px;
+}
+
+nav {
+  /*background-color: #f3982e;*/
+  padding: 15px;
+  /*border: 1px black solid;*/
+  margin: 50px; auto
+  width: 60%;
+  font-family: 'Lalezar', cursive;
+  font-size: 18px;
+  color:#f3982e;
+}
+nav ul li {
+  list-style: none;
+  float: right;
+  padding-right: 10px;
+  color:#f3982e;
+}
+
+a:visted {
+      color:red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+aside {
+    /*background-color: #37BC9B;*/
+    width: 25%;
+    float: left;
+}
+
+main {
+    float: left;
+    width:50%;
+}
+.right-col {
+    float: left;
+    width: 25%;
+    /*background-color: #37BC9B;*/
+}
+.clear {
+  clear: both;
+}
+
+p {
+  font-family: 'Lobster', cursive;
+}
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+  color: #f3982e;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.footer {
+    text-align:center;
+    font-family: 'Lalezar', cursive;
 }
