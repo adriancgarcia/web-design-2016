@@ -32,9 +32,12 @@ nav ul li {
   padding-right: 10px;
   color:#f3982e;
 }
+nav a.active {
+    color:red;
+}
 
 a:visted {
-      color:red;
+      color:white;
 }
 
 a:hover {
