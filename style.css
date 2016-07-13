@@ -1,6 +1,6 @@
 body {
-  background-image:url("The_Rookery.jpg") no-repeat;
-  background: #2be9d8;
+  /*background-image:url("The_Rookery.jpg") no-repeat;*/
+  background: #charcoal;
 }
 
 /*h1 {
@@ -12,14 +12,15 @@ body {
 .primary {
   font-family: 'Lobster', cursive;
   font-size: 60px;
-  color:#f3982e;
-  margin: 0px;
+  color:#f2f2f2;
+  margin: 10px;
 }
 
 header {
   display:flex;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
 }
 nav {
   padding: 15px;
@@ -27,8 +28,7 @@ nav {
   width: 60%;
   font-family: 'Lalezar', cursive;
   font-size: 18px;
-  color:#f3982e;
-
+  color:#f2f2f2;
 }
 
 /*nav ul {
@@ -39,55 +39,69 @@ nav ul li {
   /*float: right;*/
   list-style: none;
   padding-right: 10px;
-  color:#f3982e;
+  color:#f2f2f2;
   display:inline-block;
 }
 
 
 nav a .active {
-    color:red;
+    color:#f2f2f2;
 }
 
-a:visted {
-      color:white;
+a:visited {
+  color:yellow;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
-    color: green;
+    color:red;
 }
 
 aside {
     /*background-color: #37BC9B;*/
-    width: 25%;
-    float: left;
+    width:25%;
+    float:left;
+    margin-top: 200px;
+    margin-left: 0;
+    font-size: 24px;
+    font-style: none;
 }
 
+
 main {
-    float: left;
+    float:left;
     width:50%;
-    font-size: 36px;
+    font-size:36px;
     /*clear:both;*/
 }
 
+
+
 .right-col {
-    float: left;
-    width: 25%;
+    float:left;
+    width:25%;
     /*background-color: #37BC9B;*/
 }
+
 .clear {
-  clear: both;
+  clear:both;
 }
 
 p {
   font-family: 'Lobster', cursive;
 
 }
+
 .clearfix:before, .clearfix:after{
   content: " ";
   display: table;
-  color: #f3982e;
+  color: #f2f2f2;
 }
+
 .clearfix:after {
   clear: both;
 }
@@ -95,5 +109,4 @@ p {
 .footer {
     text-align:center;
     font-family: 'Lalezar', cursive;
-
 }
